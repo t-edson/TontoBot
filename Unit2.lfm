@@ -1,0 +1,61 @@
+object Form2: TForm2
+  Left = 412
+  Height = 548
+  Top = 198
+  Width = 987
+  Caption = 'Form2'
+  ClientHeight = 548
+  ClientWidth = 987
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  LCLVersion = '1.8.0.6'
+  object Image1: TImage
+    Left = 8
+    Height = 480
+    Top = 8
+    Width = 640
+    OnClick = Image1Click
+    OnMouseMove = Image1MouseMove
+    OnPaint = Image1Paint
+  end
+  object Button1: TButton
+    Left = 104
+    Height = 25
+    Top = 504
+    Width = 75
+    Caption = '<<<'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 25
+    Top = 504
+    Width = 75
+    Caption = '>>>'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Shape1: TShape
+    Left = 784
+    Height = 65
+    Top = 8
+    Width = 65
+  end
+  object Label1: TLabel
+    Left = 712
+    Height = 15
+    Top = 24
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object PaintBox1: TPaintBox
+    Left = 664
+    Height = 272
+    Top = 96
+    Width = 313
+    OnPaint = PaintBox1Paint
+  end
+end
